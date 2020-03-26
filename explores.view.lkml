@@ -10,6 +10,7 @@ datagroup: client_data {
 }
 
 explore: client {
+  from: client_queries
 
   persist_for: "60 minutes"
 
