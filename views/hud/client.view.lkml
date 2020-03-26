@@ -15,7 +15,6 @@ view: client {
       FROM client t ;;
     indexes: ["PersonalID"]
     datagroup_trigger: client_data
-
     publish_as_db_view: yes
   }
 
