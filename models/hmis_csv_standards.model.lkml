@@ -5,6 +5,7 @@ include: "/views/hud_standards/*.view.lkml"
 explore: base {
   # persist_for: "24 hours"
   view_name: files
+
   join: file_fields {
     relationship: one_to_many
     sql_on: ${files.filename} = ${file_fields.filename} ;;
